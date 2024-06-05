@@ -2,13 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
     <link rel="icon" type="image/svg+xml" href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
     <title>Vite Template</title>
+    <style>
+      .newClass {
+        border: 1px solid red;
+        background-color: white;
+      }
+    </style>
   </head>
   <body>
-    <script type="module" src="./js/index.js"></script>
+    <div id="myElemmentId" class="myClass"></div>
+    <div class="myClass"></div>
+    <input type="text" name="" id="entrada" />
+    <p style="color: white" id="salida"></p>
+    <script type="module" src="./js/index.js" defer></script>
   </body>
 </html>
